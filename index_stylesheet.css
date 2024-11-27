@@ -1,0 +1,114 @@
+/* FONTS :  */
+/* font-family: 'Sevillana', cursive;  */
+/* font-family: "Edu AU VIC WA NT Arrows", cursive;  */
+/* font-family: "Roboto", sans-serif;  */
+/* -------------------------------------------  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #543824;
+    color: #FEAA6D;
+}
+
+#submit_recipe {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    background-color: none;
+    color: #FEAA6D;
+    padding: 5px;
+    border-radius:  20px;
+    position: relative;
+    left: 28%;
+    bottom: 100px;
+    transition: 0.5s;
+}
+
+#submit_recipe:hover {
+    background-color:#FEAA6D;
+    color: #543824;
+
+}
+
+img {
+    border-radius: 50%;
+}
+
+h1 {
+    margin-top: 10px;
+    font-family: 'Sevillana', cursive;
+    font-size: 60px;
+}
+
+.intro {
+    width: 70%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#og_recipe {
+    text-decoration-style: double;
+    color: #FEAA6D;
+    transition-duration: 0.5s;
+}
+
+#og_recipe:hover {
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    background-color: #FEAA6D;
+}
+
+ul {
+    border: dotted #543824;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+ul li, ol li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ingredients, .steps {
+    font-family: 'Sevillana', cursive;
+    font-size: 30px;
+}
+
+ol {
+    position: relative;
+    right: 15%;
+    /* padding-right: 50px; */
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    height: 180px;
+}
+
+span {
+    font-family: 'Sevillana', cursive;
+    font-weight: 900;
+    font-size: 30px;
+}
