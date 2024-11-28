@@ -16,28 +16,79 @@
         src="https://www.modernhoney.com/wp-content/uploads/2017/11/Thin-and-Crispy-Chocolate-Chip-Cookies-2.jpg" 
         width="200px" 
         alt="Image of a delicous chocolate chip cookie">
-        <h1>Your Cookie Recipe Form</h1>
+        <h1>Your Cookie Recipe Form </h1>
+        <span>.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:..:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:.</span>
     </header>
 
     <main>
         <form action="">
-            <div>
-                <label for="full_name">Full Name:</label>
-                <input type="text" id="full_name" name="full_name" placeholder="ex: John Doe">
-            </div>
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="ex:Jdoe@gmail.com">
-            </div>
-            <div>
-                <label for="recipe_name">Recipe Name:</label>
-                <input type="text" id="recipe_name" name="recipe_name" placeholder="ex:Chips Al John Doe">
-            </div>
+            <section class="your_info">
+                <h2>Your Info:</h2>
+                <div>
+                    <label for="full_name">Full Name:</label>
+                    <input type="text" id="full_name" name="full_name" placeholder="ex: John Doe">
+                </div>
 
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="ex:Jdoe@gmail.com">
+                </div>
+
+                <div>
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" min="1900-01-01" max="2024-12-31">
+                </div>
+            </section>
+
+            <section class="your_recipe">
+                <h2>Your Recipe:</h2>
+
+                <div class="recipe">
+                    <label for="recipe_name">Recipe Name:</label>
+                    <input type="text" id="recipe_name" name="recipe_name" placeholder="ex:Chips Al John Doe">
+                </div>
+
+                <div class="ingredients">
+                    <label for="ingredients"><span>*:._.:*~*:._.:*~*</span> Ingredients <span>*~*:._.:*~*:._.:*</span></label>
+                    <textarea name="ingredients" id="ingredients" cols="50" rows="15" placeholder="ex: 2 tablespoons of sugar"></textarea>
+                </div>
+
+                <div class="instructions">
+                    <label for="instructions"><span>*:._.:*~*:._.:*~*</span> Instructions <span>*~*:._.:*~*:._.:*</span></label>
+                    <textarea name="instructions" id="instructions" cols="50" rows="25" placeholder="ex: 1. Preheat oven to 350°F"></textarea>
+                </div>
+            </section>
+
+            <button id="submit_form">Submit</button>
+            
         </form>
     </main>
 
-    <footer></footer>
+    <footer>
+        <div>Follow Us on Socials</div>
+        <section class="socials">
+            <div>
+                <a href="https://www.facebook.com/">
+                    <img src="https://img.icons8.com/?size=100&id=bX4N0HkbJXxj&format=png&color=000000" alt="facebook logo" width="50px">
+                </a>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/">
+                    <img src="https://img.icons8.com/?size=100&id=iKBSjwJ3Dcql&format=png&color=000000" alt="instagram logo" width="50px">
+                </a>
+            </div>
+            <div>
+                <a href="https://www.tiktok.com/explore">
+                    <img src="https://img.icons8.com/?size=100&id=K6KK5ISTAWwE&format=png&color=000000" alt="tiktok logo" width="50px">
+                </a>
+            </div>
+            <div>
+                <a href="https://www.youtube.com/">
+                    <img src="https://img.icons8.com/?size=100&id=aL0F8ToUoPjC&format=png&color=000000" alt="youtube logo" width="50px">
+                </a>
+            </div>
+        </section>
+    </footer>
     
 </body>
 </html>

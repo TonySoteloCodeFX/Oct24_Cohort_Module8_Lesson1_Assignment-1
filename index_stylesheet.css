@@ -38,7 +38,6 @@ header, footer {
 #submit_recipe:hover {
     background-color:#FEAA6D;
     color: #543824;
-
 }
 
 img {
@@ -77,8 +76,10 @@ main {
 
 ul {
     border: dotted #543824;
-    padding-left: 50px;
-    padding-right: 30px;
+    position: relative;
+    right: 10%;
+    padding-left: 7%;
+    padding-right: 3%;
 }
 
 ul li, ol li {

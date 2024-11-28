@@ -30,7 +30,82 @@ h1 {
     font-size: 60px;
 }
 
+h2 {
+    font-family: 'Sevillana', cursive;
+    font-size: 40px;
+}
+
 form {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    background-color: #FEAA6D;
+}
+
+.your_info, .your_recipe {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 3%;
+}
+
+.your_recipe, .your_info {
+    border: dotted #543824;
+    border-width: 10px;
+    border-radius: 20px;
+    margin: 2%;
+    padding: 2%;
+}
+
+div {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+input {
+    border-radius: 5px;
+    height: 30px;
+}
+
+textarea {
+    border-radius: 5px;
+}
+
+.recipe, .ingredients, .instructions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#submit_form {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    width: 200px;
+    background-color: none;
+    border-color: white;
+    color: #543824;
+    padding: 5px;
+    margin-bottom: 2%;
+    border-radius:  30px;
+    box-shadow: 2px 5px 7px;
+    transition: 0.5s;
+}
+
+#submit_form:hover {
+    background-color: #543824;
+    border-color: #926240;
+    color: #FEAA6D;
+}
+
+footer {
+    font-family: "Roboto", sans-serif;
+}
+
+.socials {
+    display: flex;
 }
